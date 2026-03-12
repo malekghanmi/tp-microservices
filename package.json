@@ -1,0 +1,13 @@
+{
+  "name": "tp-microservices",
+  "version": "1.0.0",
+  "description": "Mini réseau social - Architecture Microservices",
+  "scripts": {
+    "start:users": "cd user-service && npm start",
+    "start:posts": "cd post-service && npm start",
+    "start:gateway": "cd api-gateway && npm start",
+    "dev:users": "cd user-service && npm run dev",
+    "dev:posts": "cd post-service && npm run dev",
+    "dev:gateway": "cd api-gateway && npm run dev"
+  }
+}
